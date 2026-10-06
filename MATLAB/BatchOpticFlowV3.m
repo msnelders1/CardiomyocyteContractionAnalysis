@@ -89,13 +89,6 @@ warning('off','MATLAB:legend:IgnoringExtraEntries');
 [filepath,~] = fileparts(matlab.desktop.editor.getActiveFilename);
 addpath([filepath '\matlab_analysisV3\']);
 %cd([filepath '\data\']);
-%cd('V:\ddata\GENE\essers\Matthijs Snelders\Data\Data_Leiden\MuscleMotion');
-%cd('\\store\department\bmw\GENE\Jeroen Essers\Heartchip\HeartCHIP_I\Example - Isoproterenol');
-%cd('\\store\department\bmw\GENE\Jeroen Essers\Heartchip\MachineLearning');
-%cd('V:\ddata\GENE\essers\Matthijs Snelders\Data\Data_Leiden\Raw\Processed');
-%cd('\\store\department\bmw\GENE\Jeroen Essers\Heartchip\Data_Leiden\FrameComparison\Samples');
-%cd('\\store\department\bmw\GENE\Jeroen Essers\Heartchip\Synthetic data contraction\synth_recordings');
-cd('\\store\department\bmw\GENE\Jeroen Essers\Heartchip\Microscope Sessions\Contraction recordings\12jul2023-comptox-50ms');
 clear filepath;
 
 
